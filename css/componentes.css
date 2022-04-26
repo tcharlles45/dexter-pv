@@ -1,0 +1,11 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.btn {
+  background-color: #E31E38;
+  padding: 20px 50px;
+  border-radius: 5px;
+}

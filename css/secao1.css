@@ -1,0 +1,22 @@
+.header-bg {
+  background-image: url("/img/bg-inicio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 770px;
+}
+
+.header {
+  padding-top: 95px;
+}
+
+.header h1 {
+  margin: 40px 0 20px 0;
+  max-width: 700px;
+}
+
+.header p {
+  margin-bottom: 60px;
+  max-width: 600px;
+}
+

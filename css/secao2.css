@@ -1,0 +1,33 @@
+.alvo-bg {
+  background-color: #121212;
+}
+
+.alvo {
+  display: flex;
+  padding-top: 120px;
+  justify-content: space-between;
+}
+
+.alvo-lista {
+  max-width: 490px;
+}
+
+.alvo-lista h1 {
+  margin-bottom: 48px;
+}
+
+.alvo-lista li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.alvo-lista li:first-child {
+  margin-bottom: 10px;
+}
+
+
+.alvo-lista li + li {
+  border-top: 1px solid #e31e38;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}

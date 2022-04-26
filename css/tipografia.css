@@ -1,0 +1,45 @@
+/*TITULOS*/
+/*1 REM = 16PX*/
+
+.h1 {
+  font: 700 2rem/1.5 "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+  color: #ededed;
+}
+
+.h2-l {
+  font: 700 2.5rem/1.5 "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+  color: #ededed;
+  text-transform: uppercase;
+}
+
+.h3-xl {
+  font: 700 4rem/1.5 "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+  color: #ededed;
+  text-transform: uppercase;
+}
+
+/*PARAGRAFO*/
+.p1 {
+  font: 400 1.5rem/1.5 "Montserrat", sans-serif;
+  color: #ededed;
+}
+.p2-s {
+  font: 400 1rem/1.5 "Montserrat", sans-serif;
+  color: #ededed;
+}
+
+/*BOTAO*/
+
+.font-btn {
+  font: 600 2rem/1.5 "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+  color: #ededed;
+}
+
+.font-italic {
+  font: 400 italic 1rem/1.25 "Montserrat", sans-serif;
+  color: #ededed;
+}
