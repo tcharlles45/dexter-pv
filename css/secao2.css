@@ -5,6 +5,7 @@
 .alvo {
   display: flex;
   padding-top: 120px;
+  padding-bottom: 120px;
   justify-content: space-between;
 }
 
@@ -13,18 +14,30 @@
 }
 
 .alvo-lista h1 {
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 
 .alvo-lista li {
-  display: flex;
-  align-items: flex-start;
+  position: relative;
 }
+
+.alvo-lista li::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 18px;
+  background-image: url("/img/icons/check.svg");
+  position: absolute;
+  left: -35px;
+  top: 18px;
+}
+
 
 .alvo-lista li:first-child {
   margin-bottom: 10px;
-}
+  padding-top: 10px;
 
+}
 
 .alvo-lista li + li {
   border-top: 1px solid #e31e38;
