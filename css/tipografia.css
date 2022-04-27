@@ -7,6 +7,12 @@
   color: #ededed;
 }
 
+.h2-m {
+  font: 600 1.5rem/1.5 "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+  color: #ededed;
+}
+
 .h2-l {
   font: 700 2.5rem/1.5 "Poppins", sans-serif;
   letter-spacing: 0.015em;

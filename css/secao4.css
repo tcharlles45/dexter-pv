@@ -1,0 +1,62 @@
+.entregaveis-bg {
+  background-image: url("/img/bg-editado-entregaveis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 80px;
+}
+
+.entregaveis h1 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.entregaveis-lista {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 40px; */
+  position: relative;
+}
+
+.entregaveis-lista li {
+  display: flex;
+  align-items: flex-start;
+  max-width: 530px;
+  gap: 10px;
+}
+
+.entregaveis-lista li img {
+  padding-top: 8px;
+}
+
+/* .entregaveis-lista li::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  background-image: url("/img/icons/check.svg");
+  position: absolute;
+  left: -35px;
+  top: 10px;
+} */
+.item-1 {
+  border-right: 2px solid #e31e38;
+  border-bottom: 2px solid #e31e38;
+  padding-bottom: 20px;
+}
+
+.item-2 {
+  border-bottom: 2px solid #e31e38;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.item-3 {
+  border-right: 2px solid #e31e38;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.item-4 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
