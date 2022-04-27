@@ -1,0 +1,33 @@
+.bonus-bg {
+  background-color: #121212;
+  padding-bottom: 80px;
+}
+
+.bonus h1 {
+  padding: 80px 0 36px 0;
+}
+
+.bonus-container {
+  display: flex;
+}
+
+.bonus-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bonus-lista li {
+  max-width: 260px;
+  background-color: #440f16;
+  box-shadow: 0px 0px 10px #e31e38;
+  padding: 24px;
+  border-radius: 5px;
+}
+
+.bonus-lista img {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+

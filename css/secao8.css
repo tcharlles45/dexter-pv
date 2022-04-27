@@ -1,0 +1,16 @@
+.bio-bg {
+  background-image: url("/img/expert-black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 730px;
+}
+
+.bio h1 {
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+.bio p {
+  max-width: 620px;
+}
