@@ -5,8 +5,12 @@
 .alvo {
   display: flex;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   justify-content: space-between;
+}
+
+.dexter-alvo img {
+  border-radius: 5px;
 }
 
 .alvo-lista {
@@ -29,18 +33,18 @@
   background-image: url("/img/icons/check.svg");
   position: absolute;
   left: -35px;
-  top: 18px;
+  top: 16px;
 }
 
 
 .alvo-lista li:first-child {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-top: 10px;
 
 }
 
 .alvo-lista li + li {
   border-top: 1px solid #e31e38;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-top: 10px;
 }
