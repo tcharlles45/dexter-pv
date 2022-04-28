@@ -15,12 +15,16 @@
 }
 
 .oferta-box {
-  background-color: #440F16;
-  max-width: 560px;
+  background: rgba(68, 15, 22, 0.40);
   border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+  border: 1px solid rgba(68, 15, 22, 0.69);
   padding: 50px 70px;
   text-align: center;
   margin-bottom: 28px;
+  max-width: 560px;
 }
 
 .texto1-oferta {

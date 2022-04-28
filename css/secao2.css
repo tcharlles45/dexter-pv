@@ -4,8 +4,9 @@
 
 .alvo {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 80px;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 60px;
   justify-content: space-between;
 }
 
@@ -36,15 +37,31 @@
   top: 16px;
 }
 
-
 .alvo-lista li:first-child {
   margin-bottom: 20px;
   padding-top: 10px;
-
 }
 
 .alvo-lista li + li {
   border-top: 1px solid #e31e38;
   margin-bottom: 20px;
   padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .alvo {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .alvo-lista h1 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 330px) {
+  .alvo-lista li {
+    font-size: 1rem;
+  }
 }

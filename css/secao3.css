@@ -2,12 +2,12 @@
   background-color: #121212;
 }
 .feedback {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .feedback h1 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
@@ -18,7 +18,7 @@
 
 .carousel-item {
   background-color: #6d0922;
-  max-width: 460px;
+  max-width: 440px;
   padding: 30px 42px 75px 42px;
   border-radius: 5px;
   margin-right: 40px;
@@ -36,4 +36,11 @@
 
 .active {
   background-color: #e31e38;
+}
+
+
+@media (max-width: 400px) {
+  .feedback h1 {
+    font-size: 1.5rem;
+  }
 }
