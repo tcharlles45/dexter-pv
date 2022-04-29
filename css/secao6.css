@@ -1,5 +1,5 @@
 .oferta-bg {
-  background-image: url("./img/bg-oferta-black.jpg");
+  background-image: url("../img/bg-oferta-black.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -54,13 +54,13 @@
 
 @media (max-width: 1280px) {
   .oferta-bg {
-    background-image: url("./img/bg-oferta-1280.jpg");
+    background-image: url("../img/bg-oferta-1280.jpg");
   }
 }
 
 @media (max-width: 900px) {
   .oferta-bg {
-    background-image: url("./img/bg-oferta-900.jpg");
+    background-image: url("../img/bg-oferta-900.jpg");
     height: 860px;
   }
   .oferta h1 {
@@ -102,7 +102,7 @@
 
 @media (max-width: 480px) {
   .oferta-bg {
-    background-image: url("./img/bg-oferta-480-2.jpg");
+    background-image: url("../img/bg-oferta-480-2.jpg");
     height: 1050px;
   }
   .oferta h1 {
