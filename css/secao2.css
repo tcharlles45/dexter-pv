@@ -54,6 +54,16 @@
   }
 }
 
+@media (max-width: 768px) {
+  .alvo {
+    justify-content: center;
+  }
+  .alvo-lista h1 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
 @media (max-width: 500px) {
   .alvo-lista h1 {
     padding-top: 20px;
