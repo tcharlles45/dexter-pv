@@ -1,5 +1,5 @@
 .bio-bg {
-  background-image: url("/img/expert-black.jpg");
+  background-image: url("./img/expert-black.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -13,4 +13,10 @@
 
 .bio p {
   max-width: 620px;
+}
+
+@media (max-width: 900px) {
+  .bio-bg {
+    background-image: url("./img/bg-expert-900.jpg");
+  }
 }

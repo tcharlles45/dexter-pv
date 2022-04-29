@@ -1,5 +1,5 @@
 .bonus-bg {
-  background-image: url("/img/dexter-bg-bonus.jpg");
+  background-image: url("./img/dexter-bg-bonus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -38,7 +38,7 @@
 
 @media (max-width: 768px) {
   .bonus-bg {
-    background-image: url("/img/dexter-bg-bonus-768.jpg");
+    background-image: url("./img/dexter-bg-bonus-768.jpg");
   }
   .bonus h1 {
     padding-top: 40px;
@@ -47,7 +47,7 @@
 
 @media (max-width: 635px) {
   .bonus-bg {
-    background-image: url("/img/dexter-bg-bonus-619.jpg");
+    background-image: url("./img/dexter-bg-bonus-619.jpg");
     height: 1240px;
   }
   .bonus h1 {
