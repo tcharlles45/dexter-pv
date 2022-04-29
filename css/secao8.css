@@ -7,7 +7,7 @@
 }
 
 .bio h1 {
-  padding-top: 100px;
+  padding-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -15,8 +15,53 @@
   max-width: 620px;
 }
 
+.bio a {
+  margin-top: 40px;
+}
+
+
 @media (max-width: 900px) {
   .bio-bg {
     background-image: url("../img/bg-expert-900.jpg");
+    height: 900px;
   }
+
+  .bio h1 {
+    padding-top: 320px;
+  }
+}
+
+@media (max-width: 568px) {
+  .bio a {
+    font-size: 1.5rem;
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 470px) {
+  .bio h1 {
+    margin-bottom: 20px;
+  }
+    .bio-bg {
+    background-image: url("../img/bg-expert-470.jpg");
+    height: 1000px;
+  }
+  .bio a {
+    font-size: 1.275rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 345px) {
+  .bio-bg {
+    height: 1100px;
+  }
+  .bio p {
+    font-size: 1rem;
+  }
+  .bio a {
+    font-size: 1.125rem;
+    padding: 8px 16px;
+  }
+
 }

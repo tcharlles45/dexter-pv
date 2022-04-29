@@ -41,6 +41,10 @@
   font: 400 1rem/1.5 "Montserrat", sans-serif;
   color: #ededed;
 }
+.p2-xs {
+  font: 400 0.875rem/1.5 "Montserrat", sans-serif;
+  color: #ededed;
+}
 
 .p3-s {
   font: 700 1rem/1.5 "Poppins", sans-serif;
