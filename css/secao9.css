@@ -32,7 +32,7 @@
 .faq button::before {
   content: "";
   display: inline-block;
-  background-image: url("./img/icons/faq-seta.svg");
+  background-image: url("../img/icons/faq-seta.svg");
   height: 17px;
   width: 16px;
 }
@@ -40,7 +40,7 @@
 .faq button::after {
   content: "";
   display: inline-block;
-  background-image: url("./img/icons/seta-abrir.svg");
+  background-image: url("../img/icons/seta-abrir.svg");
   height: 6px;
   width: 14px;
 }
