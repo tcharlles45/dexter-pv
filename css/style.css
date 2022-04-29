@@ -1,14 +1,14 @@
-@import "/css/global.css";
-@import "/css/componentes.css";
-@import "/css/tipografia.css";
+@import "global.css";
+@import "componentes.css";
+@import "tipografia.css";
 
-@import "/css/secao1.css";
-@import "/css/secao2.css";
-@import "/css/secao3.css";
-@import "/css/secao4.css";
-@import "/css/secao5.css";
-@import "/css/secao6.css";
-@import "/css/secao7.css";
-@import "/css/secao8.css";
-@import "/css/secao9.css";
+@import "secao1.css";
+@import "secao2.css";
+@import "secao3.css";
+@import "secao4.css";
+@import "secao5.css";
+@import "secao6.css";
+@import "secao7.css";
+@import "secao8.css";
+@import "secao9.css";
 
